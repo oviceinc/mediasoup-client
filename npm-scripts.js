@@ -159,7 +159,7 @@ function buildTypescript(force = false)
 
 	deleteLib();
 
-	executeCmd('tsc');
+	executeCmd('vite build');
 }
 
 function lint()
